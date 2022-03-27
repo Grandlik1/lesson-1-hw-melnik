@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw2</title>
+</head>
+<body>
+<input id="adding" onclick="adding()" type="button" value="Сложение">
+<input id="division" onclick="division()" type="button" value="Деление">
+<input id="multiplication" onclick="multiplication()" type="button" value="Умножение">
+<input id="subtraction" onclick="subtraction()" type="button" value="Вычитание">
+<script>
+    function adding() {
+            let ap1 = prompt();
+            let ap2 = prompt();
+            let ap3 = +ap1 + +ap2;
+            console.log('Результат:' , ap1 , '+' , ap2 , '=' , ap3);
+    }
+</script>
+<script>
+    function division() {
+        let ap1 = prompt();
+        let ap2 = prompt();
+        let ap3 = ap1 / ap2;
+        console.log('Результат:' , ap1 , '/' , ap2 , '=' , ap3);
+    }
+</script>
+<script>
+    function multiplication() {
+        let ap1 = prompt();
+        let ap2 = prompt();
+        let ap3 = ap1 * ap2;
+        console.log('Результат:' , ap1 , '*' , ap2 , '=' , ap3);
+    }
+</script>
+<script>
+    function subtraction() {
+        let ap1 = prompt();
+        let ap2 = prompt();
+        let ap3 = ap1 - ap2;
+        console.log('Результат:' , ap1 , '-' , ap2 , '=' , ap3);
+    }
+</script>
+</body>
+</html>
